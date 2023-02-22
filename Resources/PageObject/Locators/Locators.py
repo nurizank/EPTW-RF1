@@ -1,5 +1,5 @@
 # common
-addBtn = "//button[normalize-space()='Add']"
+addBtn = "//button[.='Add ']"
 search = "//input[@type='text']"
 submitBtn = "//button[text()=' Submit ']"
 
@@ -75,7 +75,7 @@ certStartLabel = "//label[normalize-space()='Start Date']"
 certExpiryLabel = "//label[normalize-space()='Expiry Date']"
 certStartDate = "//input[@formcontrolname='issue_date']"
 calendarYear = "(//*[local-name()='rect'])[14]"
-calendarYear2 = "(//*[local-name()='rect'])[16]"
+calendarYear2 = "(//*[local-name()='rect'])[15]"
 date1 = "//div[.=' 1 ']"
 calendarYear2025 = "//div[normalize-space()='2025']"
 calendarMonth = "//div[.=' Nov ']"

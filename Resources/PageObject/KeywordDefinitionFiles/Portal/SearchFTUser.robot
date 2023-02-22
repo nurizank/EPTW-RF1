@@ -1,5 +1,6 @@
 *** Settings ***
 Library  SeleniumLibrary
+Library    Collections
 Variables   ../../Locators/Locators.py
 Variables   ../../TestData/TestData.py
 
@@ -13,7 +14,6 @@ Search FT User
     Sleep   3
 
     @{results_on_page} =  Get WebElements  ${tableUserName}
-
     FOR  ${element}  IN  @{results_on_page}
          ${keyword_name} =  Get Text  ${element}
     END
