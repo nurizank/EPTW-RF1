@@ -30,7 +30,7 @@ superName = "Nurizan Binti Abdul Khalid"
 superEmail = "NURIZAN.AKHALID@TMRND.COM.MY"
 
 # Search FT User
-keyword_name = "ten"
+keyword_name = "teen"
 
 # Search Permit
 date_range = "Sep 26, 2022 - Sep 26, 2022"
@@ -47,15 +47,9 @@ coAbrv = "SEL01"
 coRemark = "automation"
 
 # Add Contractor Admin
-caName = "admin one"
-caUserId = "CA001"
-caEmail = "ca001@yopmail.com"
-caContactNo = "0172233444"
+caName = "admin two"
+caUserId = "CA002"
+caEmail = "ca002@yopmail.com"
+caContactNo = "0182233444"
 caSearchKey = "xyz"
 caRemark = "automation"
-
-
-
-
-
-

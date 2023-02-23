@@ -17,26 +17,3 @@ Login CS
     Sleep    5
     Element Should Contain Text    ${loginId_header}    ${id}   timeout=30
     Capture Page Screenshot
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-

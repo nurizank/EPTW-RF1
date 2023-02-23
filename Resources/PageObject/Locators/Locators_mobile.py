@@ -2,8 +2,8 @@
 cs_menu = "//android.view.View[@bounds='[117,902][966,1136]']"
 hr_menu = "//android.view.View[@bounds='[117,1172][966,1404]']"
 ss_menu = "//android.widget.TextView[@text='SSTA / SSKA']"
-cs_off_menu = "//android.view.View[@bounds='[117,1833][966,2065]']"
-hr_off_menu = "//android.view.View[@bounds='[117,2100][1007,2286]']"
+offcs_menu = "//android.view.View[@bounds='[117,1833][966,2065]']"
+offhr_menu = "//android.view.View[@bounds='[117,2100][1007,2286]']"
 btn_back = "//android.widget.Button[@text='Back']"
 btn_login = "//android.widget.Button[@text='Login']"
 btn_next = "//android.widget.Button[@text='Next']"
@@ -14,13 +14,15 @@ btn_agree = "//android.widget.Button[@text='Agree']"
 btn_exit = "//android.view.View[@text='exit Exit']"
 btn_create = "//android.widget.Button[@text='Create']"
 btn_submit = "//android.widget.Button[@text='Submit']"
+btn_gps = "//android.widget.Button[@text='locate outline Locate']"
 camera_permission = "com.android.permissioncontroller:id/permission_allow_button"
 camera_shutter = "com.hihonor.camera:id/foot_black_background"
 camera_shutterOK = "com.hihonor.camera:id/head_black_background"
 created_permitNo = "//android.widget.TextView[@bounds='[96,871][864,912]']"
 title_ProjectDetails = "//android.widget.TextView[@text='Project Details']"
-btn_gps = "//android.widget.Button[@text='locate outline Locate']"
-
+contractTP = "//android.widget.Button[@text='TP (TP Ori)']"
+contractNonTP = "//android.widget.Button[@text='Non TP (CNC Lite / RR)']"
+state_johor = "//android.widget.Button[@text='Johor']"
 
 # CS
 cs_title = "//android.widget.TextView[@text='Confined Space']"
@@ -41,10 +43,7 @@ tab_Closed = "//android.widget.ToggleButton[@text='Closed']"
 cs_lor = "//android.widget.EditText[@bounds='[132,813][951,902]']"
 txt_csNo = "//android.widget.EditText[@bounds='[132,973][951,1062]']"
 list_state = "//android.widget.Button[@bounds='[132,1141][951,1231]']"
-state_johor = "//android.widget.Button[@text='Johor']"
 list_contract = "//android.widget.Button[@bounds='[132,1320][951,1409]']"
-contractTP = "//android.widget.Button[@text='TP (TP Ori)']"
-contractNonTP = "//android.widget.Button[@text='Non TP (CNC Lite / RR)']"
 txt_sv = "//android.widget.EditText[@bounds='[132,1488][951,1578]']"
 txt_svPhone = "//android.widget.EditText[@bounds='[132,1651][951,1738]']"
 gps_permission1 = "//android.widget.TextView[@text='Allow ePTW to access this device’s location?']"
@@ -68,7 +67,7 @@ agt_member = "//android.widget.TextView[@text='user one']"
 
 # CS - PI Selection
 title_PiSelection = "//android.widget.TextView[@text='PI Selection']"
-division_NMO = "//android.widget.TextView[@bounds='[882,815][933,864]']"
+division_NMO = "//android.widget.RadioButton[@text='Network Management & Operation']"
 region = "//android.widget.Button[@bounds='[84,1419][997,1509]']"
 region_1 = "//android.widget.Button[@text='Central 1 Region']"
 wilayah = "//android.widget.Button[@bounds='[84,1580][997,1672]']"
@@ -134,9 +133,66 @@ item2_avail = "//android.view.View[@bounds='[719,1473][787,1501]']"
 item2_qty = "//android.widget.EditText[@bounds='[805,1465][923,1511]']"
 item_uploadImage = "//android.widget.Image[@text='duplicate outline']"
 
+# Offline common
+tenantTM = "//android.widget.Button[@text='TM do not delete (arfans)']"
+companyXYZ = "//android.widget.Button[@text='Contractor XYZ']"
+off_camera = "//android.widget.Image[@text='takephoto']"
+
 # Offline CS
 offcs_name = "//android.widget.EditText[@bounds='[117,1070][966,1159]']"
 offcs_id = "//android.widget.EditText[@bounds='[117,1185][966,1274]']"
+tenant = "//android.widget.Button[@bounds='[84,736][997,825]']"
+company = "//android.widget.Button[@bounds='[84,920][997,1009]']"
 
-# Offline CS - Proj
+offcs_lor = "//android.widget.EditText[@bounds='[84,1093][997,1182]']"
+offcs_contract = "//android.widget.Button[@bounds='[84,1266][997,1356]']"
+offcs_csNo = "//android.widget.EditText[@bounds='[84,1442][997,1532]']"
+offcs_state = "//android.widget.Button[@bounds='[84,1616][997,1705]']"
+offcs_sv = "//android.widget.EditText[@bounds='[84,1789][997,1878]']"
+offcs_svPhone =  "//android.widget.EditText[@bounds='[84,1955][997,2042]']"
+off_divNMO = "//android.widget.TextView[@text='NMO']"
+off_region = "//android.widget.Button[@index='2']"
+off_REGION1 = "//android.widget.Button[@text='CENTRAL 1 REGION']"
+off_piName = "//android.widget.EditText[@bounds='[84,1884][841,1970]']"
+off_piId = "//android.widget.EditText[@bounds='[84,1988][841,2075]']"
+
+offcs_aeList = "//android.widget.Button[@bounds='[84,769][997,858]']"
+offcs_ae1 = "//android.widget.Button[@bounds='[122,876][724,999]']"
+offcs_ae2 = "//android.widget.Button[@bounds='[122,999][724,1121]']"
+offcs_ae3 = "//android.widget.Button[@bounds='[122,1121][724,1243]']"
+offcs_aeName = "//android.widget.EditText[@bounds='[84,948][841,1037]']"
+offcs_aeId = "//android.widget.EditText[@bounds='[84,1052][841,1141]']"
+offcs_aeCamera = ""
+offcs_spName = ""
+offcs_spId = ""
+offcs_spCamera = ""
+offcs_agtName = ""
+offcs_agtId = ""
+offcs_agtCamera = ""
+offcs_esName = ""
+offcs_esId = ""
+offcs_esCamera = ""
+
+
+# Offline HR
+offhr_name = ""
+offhr_id = ""
+offhr_ptw1 = "//android.widget.Button[@text='PTW High Risk']"
+offhr_ptw2 = "//android.widget.Button[@text='PTW High Risk Near High Voltage']"
+offhr_state = "//android.widget.Button[@bounds='[84,1103][997,1192]']"
+offhr_contract = "//android.widget.Button[@bounds='[84,1287][997,1374]']"
+offhr_lor = "//android.widget.EditText[@bounds='[84,1460][997,1549]']"
+offhr_location = "//android.widget.EditText[@bounds='[84,1623][997,1713]']"
+offhr_duration = "//android.widget.Button[@bounds='[84,1975][997,2065]']"
+offhr_1hour = "//android.widget.Button[@text='1 Hour']"
+offhr_svName = ""
+offhr_svId = ""
+offhr_reqName = ""
+offhr_reqId = ""
+
+
+
+
+
+
 

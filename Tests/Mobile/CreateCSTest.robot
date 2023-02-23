@@ -9,7 +9,7 @@ Variables   ../../Resources/PageObject/TestData/TestData_mobile.py
 *** Test Cases ***
 Verify CS permit creation functionality
     [Documentation]  To test CS Permit creation
-    [Tags]  Regression Mobile App
+    [Tags]  Regression_M
     Launch Application
     Login CS
     Create CS Permit - Project Details

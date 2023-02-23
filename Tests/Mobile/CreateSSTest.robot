@@ -9,7 +9,7 @@ Variables   ../../Resources/PageObject/TestData/TestData_mobile.py
 *** Test Cases ***
 Verify SSTA/SSKA creation functionality
     [Documentation]  To test SSTA/SSKA creation
-    [Tags]  Regression Mobile App
+    [Tags]  Regression_M
     Launch Application
     Login SS
     Create SSTA/SSKA - Project Details

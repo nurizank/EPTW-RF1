@@ -17,4 +17,13 @@ ssD_lor = "appium ss"
 ssD_work = "work ss"
 
 # Offline CS
-
+reqName = "Ali bin Ahmad"
+reqId = "90010110101011"
+piName = "Peter Lim"
+piId = "90010110101013"
+aeName = "Siva"
+aeId = "90010110101015"
+spName = "Salim"
+spId = "90010110101017"
+agtName = "Seelan"
+agtId = "90010110101019"

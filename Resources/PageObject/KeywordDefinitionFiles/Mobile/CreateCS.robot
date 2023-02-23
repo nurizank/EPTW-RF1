@@ -32,7 +32,7 @@ Create CS Permit - Project Details
 
     Element Should Be Visible   ${gps_permission2}   timeout=20
     Click Element    ${gps_permission2}
-    Sleep    10
+    Sleep    15
     Element Should Be Enabled    ${btn_next}
     Click Element    ${btn_next}
 Create CS Permit - Team Members
@@ -65,14 +65,14 @@ Create CS Permit - Team Members
     Element Should Be Visible    ${agt_member}  timeout=10
     Sleep    2
     Click Element    ${agt_member}
-    Sleep    10
+    Sleep    15
     Element Should Be Enabled    ${btn_next}
     Click Element    ${btn_next}
 Create CS Permit - PI Selection
     Wait Until Page Contains Element    ${title_PISelection}    timeout=10
     Click Element       ${division_NMO}
     Sleep    5
-    Element Should Be Visible   ${region}   timeout=10
+    Element Should Be Enabled   ${region}
     Click Element       ${region}
     Element Should Be Visible    ${region_1}    timeout=10
     Click Element       ${region_1}
@@ -97,7 +97,7 @@ Create CS Permit - Work Category
     Click Element       ${hot_Welding}
     Click Element       ${fireExtinguisher}
     Click Element       ${faceRespirator}
-    Sleep    10
+    Sleep    15
     Element Should Be Enabled    ${btn_next}
     Click Element       ${btn_next}
 Create CS Permit - Work Category images

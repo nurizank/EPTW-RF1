@@ -9,7 +9,7 @@ Resource    ../../Resources/PageObject/KeywordDefinitionFiles/Portal/CreateFTUse
 *** Test Cases ***
 Verify FT user creation
     [Documentation]  To test FT user creation
-    [Tags]  Regression_P
+    [Tags]  Regression_DD
     Start Test  ${url}  ${browser}
     Valid Login
     Valid User Add-Data Driven    ${name_dd}    ${email_dd}    ${contactNo_dd}    ${passportNo_dd}    ${expDate_dd}    ${remark_dd}
